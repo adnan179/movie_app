@@ -1,8 +1,10 @@
 import { Stack } from "expo-router";
+import { StatusBar } from "react-native";
 import "./global.css";
 
 export default function RootLayout() {
   return <Stack >
+    <StatusBar hidden={true}/>
     <Stack.Screen 
       name="(tabs)"
       options={{
@@ -10,7 +12,7 @@ export default function RootLayout() {
       }}
     />
     <Stack.Screen 
-      name="movies/[id]"
+      name="movie/[id]"
       options={{
         headerShown: false,
       }}

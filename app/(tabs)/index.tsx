@@ -1,5 +1,4 @@
 import MovieCard from "@/components/MovieCard";
-import SearchBar from "@/components/SearchBar";
 import TrendingCard from "@/components/TrendingCard";
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
@@ -43,7 +42,6 @@ export default function Index() {
           <Text>Error:{moviesError?.message || trendingError?.message}</Text>
         ):(
           <View>
-            <SearchBar onPress={() => {router.push("/Search")}} placeholder="Search for a movie"/>
               {trendingMovies && (
                 <View className="mt-10">
                   <Text className="text-lg text-white font-bold mb-3">Trending Movies</Text>
