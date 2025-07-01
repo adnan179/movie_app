@@ -15,8 +15,14 @@ MovieFlix is a mobile application that allows users to browse trending movies, s
 - User profile management
 
 ## Screenshots
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a41500d1-2b43-43bd-87db-4ed1fa40c4e5" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/f5aa84df-1084-4ecd-900a-7ce279333e12" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/6d86ee3e-967a-4fb4-a06b-49516cb4bd79" width="200"/></td>
+  </tr>
+</table>
 
-[Screenshots will be added here]
 
 ## Technologies Used
 
@@ -117,14 +123,11 @@ APPWRITE_ENDPOINT=your_appwrite_endpoint
 APPWRITE_PROJECT_ID=your_appwrite_project_id
 ```
 
-## License
-
-[Your License Here]
 
 ## Author
 
-[Your Name]
+Adnan Shaik
 
 ---
 
-This project was created as a learning exercise for React Native and Expo development.
+This project was created as a learning exercise for React Native and Expo development. This is the youtube link for it: https://www.youtube.com/watch?v=f8Z9JyB2EIE&t=2s
